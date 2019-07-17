@@ -15,6 +15,7 @@
 		A3FDB638228BFD74002E3442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FDB637228BFD74002E3442 /* Assets.xcassets */; };
 		A3FDB63B228BFD74002E3442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FDB639228BFD74002E3442 /* LaunchScreen.storyboard */; };
 		A3FDB646228BFD74002E3442 /* travisDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FDB645228BFD74002E3442 /* travisDemoUITests.swift */; };
+		E8B6B28222DF1421001F4BB2 /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6B28122DF1421001F4BB2 /* CardsLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A3FDB647228BFD74002E3442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C08F5B2080C4C9FD31E7F0 /* Pods_travisDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_travisDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E802615ECEF5F4A121F72DF8 /* Pods-travisDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travisDemo.debug.xcconfig"; path = "Target Support Files/Pods-travisDemo/Pods-travisDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8B6B28122DF1421001F4BB2 /* CardsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLayout.swift; sourceTree = "<group>"; };
 		F1D33EE94E8B8B217E5BF2CD /* Pods-travisDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travisDemo.release.xcconfig"; path = "Target Support Files/Pods-travisDemo/Pods-travisDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			children = (
 				A3FDB630228BFD73002E3442 /* AppDelegate.swift */,
 				A3FDB632228BFD73002E3442 /* ViewController.swift */,
+				E8B6B28122DF1421001F4BB2 /* CardsLayout.swift */,
 				A3FDB634228BFD73002E3442 /* Main.storyboard */,
 				A3FDB637228BFD74002E3442 /* Assets.xcassets */,
 				A3FDB639228BFD74002E3442 /* LaunchScreen.storyboard */,
@@ -125,7 +128,6 @@
 				2F90B9BA67FE39025F3565BA /* Pods-travisDemoUITests.debug.xcconfig */,
 				A36575816E4C36447FAF90F8 /* Pods-travisDemoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -303,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FDB633228BFD73002E3442 /* ViewController.swift in Sources */,
+				E8B6B28222DF1421001F4BB2 /* CardsLayout.swift in Sources */,
 				A3FDB631228BFD73002E3442 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
